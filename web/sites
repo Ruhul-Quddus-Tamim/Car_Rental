@@ -1,0 +1,7 @@
+
+
+
+StringWriter errors = new StringWriter();
+ex.printStackTrace(new PrintWriter(errors));
+error = "exception" + errors.toString();
+out.println(error);
